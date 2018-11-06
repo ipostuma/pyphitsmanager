@@ -24,9 +24,9 @@ def initCreateDir(directory):
                 path.join(this_dir,"InitFiles/materials.mod"),
                 path.join(this_dir,"InitFiles/param.mod"),
                 path.join(this_dir,"InitFiles/source.mod"),
-                path.join(this_dir,"Initfiles/surface.mod"),
-                path.join(this_dir,"Initfiles/title.mod"),
-                path.join(this_dir,"Initfiles/t-track.tally")]
+                path.join(this_dir,"InitFiles/surface.mod"),
+                path.join(this_dir,"InitFiles/title.mod"),
+                path.join(this_dir,"InitFiles/t-track.tally")]
     for InitFile in InitFiles:
         copyfile(InitFile, path.join(directory, "InitFiles/",path.basename(InitFile)))
 
