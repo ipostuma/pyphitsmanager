@@ -2,7 +2,7 @@
 
 import sys, argparse, string
 from os import path, makedirs, getcwd
-from PHITSmanager import m
+from PHITSmanager import PHITSmanager as m
 
 def initManager(args):
     m.initCreateDir(path.join(getcwd(),path.basename(args.PATH[0])))
