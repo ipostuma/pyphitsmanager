@@ -60,6 +60,7 @@ def buildPHITSproject(directory=getcwd(),outputfile = "phits.inp"):
         cf = open(tally,'r')
         f.write("\r\n"+cf.read())
         cf.close()
+    f.write("\r\n [ E N D ]")
     f.close()
     return 0,outputfile
 
